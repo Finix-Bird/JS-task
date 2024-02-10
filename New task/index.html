@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ball Task</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body onload="view()">
+    <div id="details">
+        <label for="">Enter the value :</label>
+        <input type="text" id="input">
+        <button type="submit" onclick="Addvalue()">Submit</button>
+    </div>
+    <div id="container">
+        <div id="Ballbox">
+            <h1>Ball Box</h1>
+            <div id="ballset">
+                <div id="ball"></div>
+            </div>
+        </div>
+        <div id="valuebox">
+            <h1>Details Box</h1>
+            <table id="tablebox">
+                <thead>
+                <tr><th>Ball No</th><th>Ball value</th></tr>
+                </thead>
+                <tbody id="tablerow">
+                </tbody>        
+            </table>
+            <div id="footer">
+                <label for="">Total = </label>
+                <p id="Totalvalue"></p>  
+            </div>     
+        </div>    
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>

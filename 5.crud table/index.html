@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crud table</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    
+    <div id="container">
+        <div id="createconatiner">
+            <form>
+                <div id="createbox" >
+                    <label for="Name">Name:</label><br>
+                    <input type="text" id="Name" value="" placeholder="Enter the Name"><br>
+                </div>
+               <div id="createbox">
+                    <label for="Age"></label>Age:<br>
+                    <input type="text" id="Age" value=""  placeholder="Enter the age"><br>
+               </div>
+                <div id="createbox">
+                    <label for="Native"></label>Native:<br>
+                    <input type="text" id="Native" value=""  placeholder="Enter the Native"><br>
+                </div>
+                <div id="createbox">
+                    <button onclick="Adduser()">Submit</button>
+                </div>
+            </form>
+        </div>
+        <table>
+            <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Native</th>
+                <th>Features</th>
+            </tr>
+            </thead>
+            <tbody id="users">
+            </tbody>
+        </table>
+    </div>
+    
+    <script src="./index.js"></script>
+</body>
+</html>
